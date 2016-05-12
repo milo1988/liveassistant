@@ -1,0 +1,2 @@
+[ERROR] 2015-08-06 21:59:27,519    org.liufeng.weixin.util.WeixinUtil     - 创建菜单失败 errcode:48001 errmsg:api unauthorized
+[INFO ] 2015-08-06 21:59:27,522    org.liufeng.weixin.main.CreateMenu     - 菜单创建失败，错误码：48001

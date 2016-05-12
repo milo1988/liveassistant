@@ -96,20 +96,20 @@ public class CoreService {
 
 				List<Article> articleList = new ArrayList<Article>();
 				// 单图文消息
-//				if ("1".equals(content)) {
-//					Article article = new Article();
-//					article.setTitle("微信公众帐号开发教程Java版");
-//					article.setDescription("方便PICC信息技术人员以及公司其他用户交流运维经验、提供运维技术支持、提高运维服务相应速度和服务质量。");
-//					article.setPicUrl("http://0.xiaoqrobot.duapp.com/images/avatar_liufeng.jpg");
-//					article.setUrl("http://blog.csdn.net/lyq8479");
-//					articleList.add(article);
-//					// 设置图文消息个数
-//					newsMessage.setArticleCount(articleList.size());
-//					// 设置图文消息包含的图文集合
-//					newsMessage.setArticles(articleList);
-//					// 将图文消息对象转换成xml字符串
-//					respMessage = MessageUtil.newsMessageToXml(newsMessage);
-//				}
+				if (content.length() == 1 && content.matches("[0-8]")) {
+					Article article = new Article();
+					article.setTitle("生活助理微信公众号功能简介");
+					article.setDescription("本公众号一直致力于为广大人民群众提供方便的信息查询和生活服务。");
+					article.setPicUrl("http://milotian.imwork.net/liveassistant/help/0"+ content + ".jpg");
+					article.setUrl("http://milotian.imwork.net/liveassistant/help/0"+ content + ".html");
+					articleList.add(article);
+					// 设置图文消息个数
+					newsMessage.setArticleCount(articleList.size());
+					// 设置图文消息包含的图文集合
+					newsMessage.setArticles(articleList);
+					// 将图文消息对象转换成xml字符串
+					respMessage = MessageUtil.newsMessageToXml(newsMessage);
+				}
 //				// 单图文消息---不含图片
 //				else if ("2".equals(content)) {
 //					Article article = new Article();
@@ -218,7 +218,7 @@ public class CoreService {
 //				}
 				
 				// 如果以“歌曲”2个字开头
-				   if (content.startsWith("歌曲")) {
+				else if (content.startsWith("歌曲")) {
 					// 将歌曲2个字及歌曲后面的+、空格、-等特殊符号去掉
 					String keyWord = content.replaceAll("^歌曲[\\+ ~!@#%^-_=]?", "");
 					// 如果歌曲名称为空

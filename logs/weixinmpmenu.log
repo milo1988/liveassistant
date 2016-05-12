@@ -1,2 +1,7 @@
-[ERROR] 2015-08-06 21:59:27,519    org.liufeng.weixin.util.WeixinUtil     - 创建菜单失败 errcode:48001 errmsg:api unauthorized
-[INFO ] 2015-08-06 21:59:27,522    org.liufeng.weixin.main.CreateMenu     - 菜单创建失败，错误码：48001
+[ERROR] 2016-05-11 23:09:55,669    org.liufeng.weixin.util.WeixinUtil     - 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [jBEL70474vr20]
+[INFO ] 2016-05-11 23:09:55,694    org.liufeng.weixin.main.CreateMenu     - 菜单创建失败，错误码：48001
+[ERROR] 2016-05-11 23:15:08,646    org.liufeng.weixin.util.WeixinUtil     - 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [DBL1Va0788vr20]
+[INFO ] 2016-05-11 23:15:08,648    org.liufeng.weixin.main.CreateMenu     - 菜单创建失败，错误码：48001
+[ERROR] 2016-05-11 23:17:34,859    org.liufeng.weixin.util.WeixinUtil     - Weixin server connection timed out.
+[ERROR] 2016-05-11 23:18:14,434    org.liufeng.weixin.util.WeixinUtil     - 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [WQK6LA0973vr22]
+[INFO ] 2016-05-11 23:18:14,437    org.liufeng.weixin.main.CreateMenu     - 菜单创建失败，错误码：48001
