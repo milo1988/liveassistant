@@ -35,6 +35,7 @@ public class CoreService {
 	private static Logger log = LoggerFactory.getLogger(CoreService.class);
 	
 //	private static String location = null;
+	private static String host = "132.232.219.111";
 	
 	private static Map<String,String> locationMap = new HashMap<String,String>();
 
@@ -75,7 +76,7 @@ public class CoreService {
 			contentMsg.append("6  百科查询").append("\n");
 			contentMsg.append("7  人脸识别").append("\n");
 			contentMsg.append("8  聊天唠嗑").append("\n");
-			contentMsg.append("点击查看 <a href=\"http://milotian.imwork.net/liveassistant/help.html\">帮助手册</a>");
+			contentMsg.append("点击查看 <a href=\"http://\" + host + \"/liveassistant/help.html\">帮助手册</a>");
 
 			// 默认返回的文本消息内容
 			String respContent = contentMsg.toString();
@@ -100,8 +101,8 @@ public class CoreService {
 					Article article = new Article();
 					article.setTitle("生活助理微信公众号功能简介");
 					article.setDescription("本公众号一直致力于为广大人民群众提供方便的信息查询和生活服务。");
-					article.setPicUrl("http://milotian.imwork.net/liveassistant/help/0"+ content + ".jpg");
-					article.setUrl("http://milotian.imwork.net/liveassistant/help/0"+ content + ".html");
+					article.setPicUrl("http://\" + host + \"/liveassistant/help/0"+ content + ".jpg");
+					article.setUrl("http://\" + host + \"/liveassistant/help/0"+ content + ".html");
 					articleList.add(article);
 					// 设置图文消息个数
 					newsMessage.setArticleCount(articleList.size());
