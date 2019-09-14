@@ -1,0 +1,151 @@
+﻿
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+	letter-spacing:1px;
+    color:#fff;
+   
+}
+p{
+padding:20px;
+}
+
+section
+{
+padding:50px 20px 25px 20px;
+}
+h2
+{
+
+font-size:60px;
+
+}
+
+p {
+    
+    line-height:30px;
+    margin-bottom:35px;
+}
+hr {
+    border-top: 1px solid rgb(27, 106, 131);
+margin: 0px 100px 0px 100px
+}
+/* =============================================================
+   NAVBAR STYLES
+ ============================================================ */
+.navbar-inverse {
+background-color: rgb(27, 106, 131);
+border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+background-color: transparent;
+border-bottom: 4px solid rgba(0, 231, 222, 0.72);
+
+
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #FFF;
+font-size: 13px;
+font-weight: 800;
+padding: 10px;
+letter-spacing: 2px;
+margin:10px 5px 10px 5px;
+}
+
+.navbar-inverse .navbar-brand {
+color: #FFF;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+/* =============================================================
+   HOME STYLES
+ ============================================================ */
+#home {
+    text-align:center;
+    padding-bottom:50px;
+}
+#home i {
+    margin:5px;
+}
+#home h1 {
+text-transform:uppercase;
+    padding-top:120px;
+    font-size:60px;
+    font-weight:900;
+    color:#fff;
+    line-height:80px;
+    padding-bottom:5px;
+}
+/*SLIDER STYLES*/
+#carousel-slider {
+    color:#fff; 
+    min-height:420px;
+    padding:30px 20px 5px 20px; 
+}
+    .carousel-control.left {
+left: 0;
+right: auto;
+background-repeat: repeat-x;
+background-image: linear-gradient(to left,rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, 0) 100%)!important;
+}
+.carousel-control.right {
+right: 0;
+left: auto;
+background-repeat: repeat-x;
+background-image: linear-gradient(to right,rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, 0) 100%)!important;
+}
+.carousel-indicators li {
+    border:5px solid #FFF;
+    width:20px;
+    height:20px;
+}
+.carousel-indicators .active {
+    border:5px solid rgba(0, 231, 222, 0.72);
+    width:20px;
+    height:20px;
+	background-color:transparent;
+    
+}
+
+/* =============================================================
+   BUTTON STYLES
+ ============================================================ */
+
+.custom-btn-1 {
+    border-radius:0px;
+    background-color:transparent;
+    border:2px solid rgba(0, 231, 222, 0.72);
+    margin:5px;
+    color:#fff;
+}
+    .custom-btn-1:hover {
+         color:#fff;
+          background-color:rgba(0, 0, 0,  0.42);
+    }
+
+/* =============================================================
+   CONTACT STYLES
+ ============================================================ */
+  #contact  .form-control{
+background-color:transparent;
+}
+#contact label {
+    padding:15px;
+}
+  /* =============================================================
+   FOOTER STYLES
+ ============================================================ */
+.footer {
+    text-align:right;
+    color:#fff;
+    background-color:rgb(27, 106, 131);
+    padding:20px;
+}

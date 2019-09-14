@@ -5,3 +5,4 @@
 [ERROR] 2016-05-11 23:17:34,859    org.liufeng.weixin.util.WeixinUtil     - Weixin server connection timed out.
 [ERROR] 2016-05-11 23:18:14,434    org.liufeng.weixin.util.WeixinUtil     - 创建菜单失败 errcode:48001 errmsg:api unauthorized hint: [WQK6LA0973vr22]
 [INFO ] 2016-05-11 23:18:14,437    org.liufeng.weixin.main.CreateMenu     - 菜单创建失败，错误码：48001
+[ERROR] 2019-09-03 14:29:53,738    org.liufeng.weixin.util.WeixinUtil     - 获取token失败 errcode:40164 errmsg:invalid ip 59.37.125.11 ipv6 ::ffff:59.37.125.11, not in whitelist hint: [YLYema01931533]

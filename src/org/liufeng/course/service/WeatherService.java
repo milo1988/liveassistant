@@ -62,11 +62,11 @@ public class WeatherService {
 		buffer.append(source).append(" 今明后三天天气情况如下：\n\n");
 		JSONArray respContent =  JSONObject.fromObject(jsonResult).getJSONArray("results");
 		JSONArray weatherdata = respContent.getJSONObject(0).getJSONArray("weather_data");
-		System.out.println(respContent);
-		System.out.println(weatherdata);
+//		System.out.println(respContent);
+//		System.out.println(weatherdata);
 		for(int i=0; i< weatherdata.size();i++) {
 			JSONObject daydata = weatherdata.getJSONObject(i);
-			buffer.append("日期:").append(daydata.getString("date")).append(" ")
+			buffer.append(daydata.getString("date")).append(" ")
 			.append("天气:").append(daydata.getString("weather")).append(" ")
 			.append("风力:").append(daydata.getString("wind")).append(" ")
 			.append("温度:").append(daydata.getString("temperature")).append("\n");

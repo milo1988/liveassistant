@@ -10,7 +10,19 @@
     <servlet-name>coreServlet</servlet-name>
     <url-pattern>/coreServlet</url-pattern>
   </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>notifyServlet</servlet-name>
+    <servlet-class>  
+            org.liufeng.course.servlet.NotifyServlet  
+        </servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>notifyServlet</servlet-name>
+    <url-pattern>/bbk/commitInfo</url-pattern>
+  </servlet-mapping>
+  <!-- http://milotian.cn/liveassistant/bbk/commitInfo -->
   <welcome-file-list>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
   </welcome-file-list>
 </web-app>

@@ -35,7 +35,7 @@ public class CoreService {
 	private static Logger log = LoggerFactory.getLogger(CoreService.class);
 	
 //	private static String location = null;
-	private static String host = "132.232.219.111";
+	private static String host = "milotian.cn";//132.232.219.111
 	
 	private static Map<String,String> locationMap = new HashMap<String,String>();
 
