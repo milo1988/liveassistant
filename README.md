@@ -1,6 +1,9 @@
 # liveassistant
 微信公众号liveassistant（生活助手）
 
+关注体验
+![image](https://raw.githubusercontent.com/milo1988/liveassistant/master/WebRoot/help/00.jpg)
+
 部分功能截图
  1.天气预报
  ![image](https://raw.githubusercontent.com/milo1988/liveassistant/master/WebRoot/help/01.jpg)
@@ -9,7 +12,7 @@
  ![image](https://raw.githubusercontent.com/milo1988/liveassistant/master/WebRoot/help/02.jpg)
  
  3.附近搜索
- ![image](https://raw.githubusercontent.com/milo1988/liveassistant/master/WebRoot/help/003.jpeg)
+ ![image](https://raw.githubusercontent.com/milo1988/liveassistant/master/WebRoot/help/03.jpg)
  
  4.菜谱搜索
  ![image](https://raw.githubusercontent.com/milo1988/liveassistant/master/WebRoot/help/04.jpg)
