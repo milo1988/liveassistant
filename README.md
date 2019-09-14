@@ -2,7 +2,7 @@
 微信公众号liveassistant（生活助手）
 
 关注体验
-![image](https://raw.githubusercontent.com/milo1988/liveassistant/master/WebRoot/help/00.jpg)
+![image](https://github.com/milo1988/liveassistant/blob/master/WebRoot/help/扫码_搜索联合传播样式-微信标准绿版.png)
 
 部分功能截图
  1.天气预报
